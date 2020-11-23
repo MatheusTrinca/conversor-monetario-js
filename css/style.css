@@ -1,5 +1,6 @@
 :root{
-  --primary-color: #5fbaa7
+  --primary-color: #5fbaa7;
+  --primary-color-hover: #488b7d;
 }
 
 *{
@@ -31,6 +32,10 @@ h1{
   font-size: 15px;
   padding: 8px 12px;
   cursor: pointer;
+}
+
+.btn:hover{
+  background-color: var(--primary-color-hover);
 }
 
 .money-image{
